@@ -12,5 +12,6 @@ double calculateGapSize() {
 double calculatePoolCost() {
   Circle pool(3);
   Circle pool_with_track(4);
-  return 1000 * (pool_with_track.getArea() - pool.getArea()) + 2000 * pool_with_track.getFerence();
+  return 1000 * (pool_with_track.getArea() - pool.getArea()) 
+    + 2000 * pool_with_track.getFerence();
 }
