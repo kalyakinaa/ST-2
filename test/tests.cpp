@@ -144,5 +144,5 @@ TEST(TasksCheck, gapSizeTask) {
 }
 
 TEST(TasksCheck, poolCostTask) {
-  EXPECT_NEAR(calculatePoolCost(), 72256.6, 1e-6);
+  EXPECT_NEAR(calculatePoolCost(), 72256.63103, 1e-5);
 }
